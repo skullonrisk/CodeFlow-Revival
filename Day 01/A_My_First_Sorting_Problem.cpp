@@ -1,22 +1,21 @@
-#include<iostream>
-#include<algorithm>
+#include <iostream>
+#include <algorithm>
 using namespace std;
-void test(){
+void test() {
     int arr[2];
-    for(int i=0;i<2;i++){
-        cin>>arr[i];
+    for (int i = 0; i < 2; i++) {
+        cin >> arr[i];
     }
-    sort(arr,arr+2);
-    for(int i=0;i<2;i++){
-        cout<<arr[i]<<" ";
+    sort(arr, arr + 2);
+    for (int i = 0; i < 2; i++) {
+        cout << arr[i] << " ";
     }
-    cout<<"\n";
-
+    cout << "\n";
 }
-int main(){
+int main() {
     int t;
-    cin>>t;
-    while(t--){
+    cin >> t;
+    while (t--) {
         test();
     }
 }
